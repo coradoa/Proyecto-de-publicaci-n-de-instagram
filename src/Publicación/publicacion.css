@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(240, 240, 240); /* Un tono de gris claro */
+  }
+
+.post-container {
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+#imagen{
+    margin: 10px;
+    width: 50px;
+    height: 50px;  
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+
+.perfil{
+    display: inline-block;
+    vertical-align: middle; /*alinear de forma vertical los elementos*/
+}
+
+/*ajuste de la imagen del post*/
+.post-image {
+    width: 500px;
+    height: 500px;
+    /*margin-top: 10px;*/
+}
+
+.componente {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*BOTON LIKE*/
+#tamaño{
+    margin: 2px;
+    width: 30px;
+    height: 30px; 
+    border-radius: 10px; 
+}
+
+.like-button {
+    display: inline-block;
+    padding: 0px;
+    font-weight: bold;
+    color: white;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    background-color: #DFD7BF;
+  }
+  
+  .like-button:active {
+    background-color: #F5F5F5;
+  }
+
+/*estilo de h1,h2,h5 y p*/
+h1, h2,h4, h5, p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #262626;
+    line-height: 1.2;
+  }
+#alapar{
+    display: inline-block;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+}
+  
+  
